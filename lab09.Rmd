@@ -1,0 +1,69 @@
+---
+title: "Lab 9: APIs"
+author: "Your name"
+date: "`r Sys.Date()`"
+output: 
+  pdf_document:
+    highlight: tango
+    toc: false
+    df_print: kable
+    fig_caption: no
+    number_sections: no
+    dev: pdf
+  html_document:
+    highlight: tango
+    self_contained: true
+    theme: paper
+    toc: no
+    df_print: kable
+    fig_caption: no
+    number_sections: no
+    smart: yes
+    dev: svg
+  github_document:
+    html_preview: false
+    toc: true
+    toc_depth: 4
+    dev: svg
+    df_print: kable
+geometry: margin=1in
+fontsize: 11pt
+documentclass: article
+---
+
+```{r setup, include = FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+# Set knitr options
+knitr::opts_chunk$set(echo = TRUE)
+# Load required packages
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(tidycensus))
+options(tigris_use_cache = TRUE)
+```
+
+* * *
+
+## Lab report
+
+## Exercises
+
+#### Exercise 1
+
+
+#### Exercise 2
+
+
+#### Exercise 3
+
+
+#### Exercise 4
+
+
+#### Exercise 5
+
+
+#### Exercise 6
+
+
+#### Exercise 7
+
